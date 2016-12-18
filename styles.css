@@ -1,0 +1,387 @@
+/* Global Layout Set-up */
+
+/* WEB FONTS */
+
+* {
+	margin: auto 0;
+}
+
+
+@font-face {
+    font-family: 'momstypewriterregular';
+    src: url('fonts/Moms_typewriter-webfont.eot');
+    src: url('fonts/Moms_typewriter-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/Moms_typewriter-webfont.woff') format('woff'),
+         url('fonts/Moms_typewriter-webfont.ttf') format('truetype'),
+         url('fonts/Moms_typewriter-webfont.svg#momstypewriterregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+/* Global Layout Set-up */
+
+* { 
+  box-sizing: border-box;
+}
+  
+body {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  font-family: 'Special+Elite',sans-serif;
+  color: #9c979c;
+  background: rgb(212,238,231);
+  }
+/* Link Styles */
+
+
+
+
+a {
+  text-decoration: none;
+  color: #fff;
+ 
+}
+
+a:hover {
+  color: #6633ff;
+}
+
+/* Section Styles */
+
+
+
+
+.navbar-brand {
+	font-size: 2em;
+	float: left;
+	
+}
+
+
+
+
+
+
+header {
+  text-align: center;
+  background: linear-gradient(to top, #d7eee4,transparent 100%),
+  url('./images/ typewriter.jpg') no-repeat;
+  background-size: cover;
+  overflow: hidden;
+  padding-top: 60px;
+  background-size: 100% 100%;
+ 
+ 
+ }
+span {
+	color: #facd75;
+}
+
+header {
+  line-height: 1.5;
+}
+header .profile-image {
+  margin-top: 50px;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 3px solid white;
+  transition: all .5s;
+}
+
+header .profile-image:hover {
+  transform: scale(1.2) rotate(5deg);
+}
+.tag {
+  background-color:#87be9b;
+  color: #fff;
+  padding: 10px;
+  border-radius: 5px;
+  display: table;
+  margin: 10px auto;
+  font-size: 1.5em;
+  font-family: 'momstypewriterregular';  
+  
+} 
+
+
+
+.location {
+  background-color:#eb514c;
+  color: #fff;
+  font-size: 1em;
+  
+}
+.card {
+  margin: 30px;
+  padding: 20px 40px 40px;
+  max-width: 500px;
+  text-align: left;
+  background: #fff;
+  border-bottom: 4px solid #ccc;
+  border-radius: 6px;
+  transition: all .5s;
+  
+}
+.card:hover {
+  border-color: #ff99ff;
+}
+
+ul.skills {
+  padding: 0;
+  text-align: center;
+}
+
+.skills li {
+  border-radius: 6px;
+  display: inline-block;
+  background: #87be9b;
+  color: white;
+  padding: 5px 10px;
+  margin: 2px;
+}
+
+.skills li:nth-child(odd) {
+  background: #eb514c;
+}
+
+footer {
+  width: 100%;
+  min-height: 30px;
+  padding: 20px 0 40px 20px;
+}
+
+footer .copyright {
+  top: -8px;
+  font-size: .75em;
+}
+
+footer ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+footer ul li {
+  display: inline-block;
+}
+
+a.social {
+  display: inline-block;
+  text-indent: -9999px;
+  margin-left: 5px;
+  width: 30px;
+  height: 30px;
+  background-size: 30px 30px;
+  opacity: .4;
+  transition: all .5s;
+}
+a.twitter {
+  background-image: url(images/twitter.svg);
+}
+a.linkedin {
+  background-image: url(images/linkedin.svg);
+}
+a.github {
+  background-image: url(images/github.svg);
+}
+a.social:hover {
+  opacity: 1;
+}
+.clearfix {
+  clear: both;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*---------EXPERIENCE PAGE STYLES---------------- */
+
+
+#wrapper 
+ {
+	background-image: none;
+	display: none;
+}
+
+.work {
+  background-color:#87be9b;
+  color: #fff;
+  padding: 10px;
+  border-radius: 5px;
+  display: table;
+  margin: 10px auto;
+  font-size: 1.5em;
+  font-family: 'momstypewriterregular';  
+  
+} 
+
+
+
+.project {
+width: 100%;
+	height: 100%;
+}
+
+
+.andrea {
+	height: 50%;
+}
+.cardTwo {
+  margin: 10px;
+  padding: 20px 40px 40px;
+  max-width: 500px;
+  text-align: left;
+  background: #fff;
+  border-bottom: 4px solid #ccc;
+  border-radius: 6px;
+  transition: all .5s;
+  margin: 0 auto 0 auto;
+ 
+ 
+  
+}
+
+
+
+
+.cardThree {
+  margin: 30px;
+  padding: 20px 40px 40px;
+  max-width: 1000px;
+  text-align: left;
+  background: #fff;
+  border-bottom: 4px solid #ccc;
+  border-radius: 6px;
+  transition: all .5s;
+  margin-top: 10px;
+}
+
+.info {
+	text-align: center;
+}
+
+
+.contact-info {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	font-size: 0.9em;
+}
+
+.contact-info a {
+	
+	display: block;
+	min-height: 20px;
+	background-repeat: no-repeat;
+	background-size: 20px 20px;
+	padding: 0 0 0 30px;
+	margin: 0 0 10px;
+	
+	
+}
+
+.contact-info li.phone a{
+	background-image: url('./images/phone.png');
+	
+	
+}
+
+.contact-info li.mail a {
+	background-image: url('./images/mail.png');
+	
+	
+}
+
+ul li a {
+	color: gray;
+}
+
+img {
+	width: 100%;
+	height: auto;
+}
+
+
+
+/* Styles for larger screens */
+
+
+@media screen and (min-width: 720px) {
+  
+  .flex {
+      display: -ms-flexbox;      /* TWEENER - IE 10 */
+      display: flex; 
+      max-width: 1200px;
+      -ms-flex-pack: distribute;
+      justify-content: space-around;
+      margin: 0 auto;
+  }
+
+  header {
+    min-height: 470px;
+  }
+
+ 
+.nav>li {
+  position: relative;
+  display: inline-block;
+}
+
+
+
+  main {
+    padding-top: 20px;
+  }
+
+  main p {
+    line-height: 1.6em;
+  }
+
+  footer {
+    font-size: 1.3em;
+    max-width: 1200px;
+    margin: 40px auto;
+  }
+  
+  
+  
+/*   EXPERIENCE STYLE  */
+
+.cardTwo {
+	background-color: #fff;
+	float: left;
+	margin: 0 auto;
+	
+	
+}
+
+.cardThree {
+	background-color: #fff;
+	color: gray;
+	clear: both;
+	margin: 0 auto;
+	
+}
+
+.pageTwo {
+	margin: 0 auto;
+}
+
+
+
+
+}
+
+
+
