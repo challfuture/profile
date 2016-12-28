@@ -6,6 +6,9 @@
 	margin: auto 0;
 }
 
+input, textarea {
+  max-width:100%
+}
 
 @font-face {
     font-family: 'momstypewriterregular';
@@ -29,7 +32,8 @@ body {
   margin: 0;
   padding: 0;
   text-align: center;
-  font-family: 'Special+Elite',sans-serif;
+  font-family: 'Rokkitt', serif;
+  font-size: 16px;
   color: #9c979c;
   background: rgb(212,238,231);
   }
@@ -37,26 +41,49 @@ body {
 
 
 
-
-a {
-  text-decoration: none;
-  color: #fff;
- 
+.nav>li>a {
+    position: relative;
+    display: block;
+    padding: 10px 15px;
+   
+    
+}
+ul li a:link{
+	background-color: transparent;
+    color:#9c979c;
+    font-size: 16px
+    
 }
 
-a:hover {
-  color: #6633ff;
+
+.navbar ul li a {
+	background-color: transparent;
+	color: #9F9B9D;
+	
 }
+
+
+
+
+.navbar ul li a:hover
+{
+	background-color: transparent;
+	border-bottom: 1px solid  #facd75;
+	padding-bottom: .5px;
+	color: #facd75;
+	
+}
+
+
+
 
 /* Section Styles */
 
-
-
-
 .navbar-brand {
-	font-size: 2em;
+	font-size: 1em;
 	float: left;
-	
+	background-color: transparent;
+
 }
 
 
@@ -66,7 +93,7 @@ a:hover {
 
 header {
   text-align: center;
-  background: linear-gradient(to top, #d7eee4,transparent 100%),
+  background: linear-gradient(to top,  #d7eee4,transparent 100%),
   url('./images/ typewriter.jpg') no-repeat;
   background-size: cover;
   overflow: hidden;
@@ -92,7 +119,7 @@ header .profile-image {
 }
 
 header .profile-image:hover {
-  transform: scale(1.2) rotate(5deg);
+  transform: scale(1.5) rotate(695deg);
 }
 .tag {
   background-color:#87be9b;
@@ -111,22 +138,33 @@ header .profile-image:hover {
 .location {
   background-color:#eb514c;
   color: #fff;
-  font-size: 1em;
+  font-size: 14px;
+  
   
 }
+
+
 .card {
   margin: 30px;
   padding: 20px 40px 40px;
   max-width: 500px;
   text-align: left;
   background: #fff;
-  border-bottom: 4px solid #ccc;
-  border-radius: 6px;
+  border-bottom: 10px solid #ccc;
+  border-radius: 16px;
   transition: all .5s;
   
 }
+
+h2 {
+	font-family: 'Rokkitt', serif;
+	font-size: 1.5em;
+}
+
+ 
+
 .card:hover {
-  border-color: #ff99ff;
+  border-color: #87be9b;
 }
 
 ul.skills {
@@ -205,7 +243,7 @@ a.social:hover {
 
 
 
-/*---------EXPERIENCE PAGE STYLES---------------- */
+/*---------ABOUT PAGE STYLES---------------- */
 
 
 #wrapper 
@@ -229,30 +267,72 @@ a.social:hover {
 
 
 .project {
-width: 100%;
+max-width: 100%;
 	height: 100%;
 }
 
-
-.andrea {
-	height: 50%;
+main h2 {
+	text-align: center;
+	
 }
+
 .cardTwo {
-  margin: 10px;
+  margin: 30px;
   padding: 20px 40px 40px;
   max-width: 500px;
   text-align: left;
   background: #fff;
-  border-bottom: 4px solid #ccc;
-  border-radius: 6px;
+ border-bottom: 10px solid #ccc;
+  border-radius: 16px;
   transition: all .5s;
-  margin: 0 auto 0 auto;
- 
- 
+
   
 }
 
+.cardTwo:hover {
+  border-color: #87be9b;
+}
 
+a:visited {
+	color: #8AC5A3
+}
+
+a {
+	color:  #9F9B9D;
+	
+}
+
+a:hover {
+  color: #facd75;
+}
+
+
+
+
+.cardTwo h2 {
+	font-family:'Rokkitt', serif;
+	font-weight: 500;
+	font-size: 1em;
+
+}
+
+a .cardTwo h2:hover {
+	color: #8AC5A3;
+}
+
+.cardTwo p {
+	text-align: center;
+}
+
+
+.img-container {
+  max-height: 392.538px;
+  overflow-y: scroll;
+}
+
+
+
+/*---------CONTACT STYLES---------------- */
 
 
 .cardThree {
@@ -260,15 +340,26 @@ width: 100%;
   padding: 20px 40px 40px;
   max-width: 1000px;
   text-align: left;
-  background: #fff;
   border-bottom: 4px solid #ccc;
-  border-radius: 6px;
+  border-radius: 16px;
   transition: all .5s;
   margin-top: 10px;
+  color: #fff;
+  background-color: rgb(138,197,163);
 }
 
+
+
 .info {
-	text-align: center;
+	font-size: 16px;
+	font-family: 'momstypewriterregular'; 
+	text-align: left;
+}
+
+.details {
+	font-size: 16px;
+	font-family: 'momstypewriterregular'; 
+	text-align: left;
 }
 
 
@@ -277,42 +368,60 @@ width: 100%;
 	padding: 0;
 	margin: 0;
 	font-size: 0.9em;
+	color: #fff;
+	
 }
+
+
 
 .contact-info a {
 	
 	display: block;
-	min-height: 20px;
+	min-height: 0px;
 	background-repeat: no-repeat;
-	background-size: 20px 20px;
+	background-size: 30px 30px;
 	padding: 0 0 0 30px;
 	margin: 0 0 10px;
 	
 	
+	
 }
+
+
 
 .contact-info li.phone a{
 	background-image: url('./images/phone.png');
+	color: #fff;
+	
 	
 	
 }
 
 .contact-info li.mail a {
 	background-image: url('./images/mail.png');
-	
+	color: #fff;
 	
 }
 
-ul li a {
-	color: gray;
-}
+
 
 img {
 	width: 100%;
-	height: auto;
+	
 }
 
 
+/*---------Let's head back up---------------- */
+
+.cardThree a {
+	color: #fff;
+	
+}
+
+.cardThree a:hover{
+	color: #facd75;
+	
+}
 
 /* Styles for larger screens */
 
@@ -331,11 +440,33 @@ img {
   header {
     min-height: 470px;
   }
+  
+  .navbar-brand {
+	font-size: 3em;
+}
+
+
+
+.nav>li>a {
+    position: relative;
+    display: block;
+    padding: 10px 15px;
+   
+    
+}
+
+
 
  
 .nav>li {
   position: relative;
   display: inline-block;
+}
+
+.location {
+  font-size: 1em;
+  
+  
 }
 
 
@@ -347,6 +478,8 @@ img {
   main p {
     line-height: 1.6em;
   }
+  
+  
 
   footer {
     font-size: 1.3em;
@@ -360,24 +493,34 @@ img {
 
 .cardTwo {
 	background-color: #fff;
-	float: left;
-	margin: 0 auto;
+	display: inline-block;
+	vertical-align: top;
+	margin: 20px 20px 20px;
 	
 	
 }
 
 .cardThree {
-	background-color: #fff;
+	
 	color: gray;
 	clear: both;
 	margin: 0 auto;
+	color: #fff;
+	background-color: #87be9b;
+	
 	
 }
+
+.details {
+	font-size: 16px;
+	font-family: 'momstypewriterregular'; 
+	text-align: left;
+}
+
 
 .pageTwo {
 	margin: 0 auto;
 }
-
 
 
 
