@@ -297,20 +297,6 @@ main h2 {
 a:visited {
 	color: #8AC5A3
 }
-<<<<<<< HEAD
-
-a {
-	color:  #9F9B9D;
-	
-}
-
-a:hover {
-  color: #facd75;
-}
-
-
-=======
->>>>>>> origin/master
 
 a {
 	color:  #9F9B9D;
@@ -323,31 +309,6 @@ a:hover {
 
 
 
-
-.cardTwo h2 {
-	font-family:'Rokkitt', serif;
-	font-weight: 500;
-	font-size: 1em;
-
-}
-
-a .cardTwo h2:hover {
-	color: #8AC5A3;
-}
-
-.cardTwo p {
-	text-align: center;
-}
-
-
-.img-container {
-  max-height: 392.538px;
-  overflow-y: scroll;
-}
-
-
-
-/*---------CONTACT STYLES---------------- */
 
 .cardTwo h2 {
 	font-family:'Rokkitt', serif;
@@ -468,7 +429,8 @@ img {
 
 @media screen and (min-width: 720px) {
   
-
+ 
+  
   
   .flex {
       display: -ms-flexbox;      /* TWEENER - IE 10 */
